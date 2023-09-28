@@ -5,10 +5,11 @@ class Solution {
         
         Set<String> set = new HashSet<String> (); 
         String ans ="";
-        for(int i=0;i<words.length;i++){
+        for(String str: words){
             ans="";
-            for(int j=0;j<words[i].length();j++){
-                int value = words[i].charAt(j);
+            for(int j=0;j<str.length();j++){
+                
+                int value = str.charAt(j);
                 ans+=arr[value-97];
             }   
               
