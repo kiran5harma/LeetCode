@@ -1,14 +1,9 @@
 class SubrectangleQueries {
     
     int [][] rectangle;
-    int row, col;
 
     public SubrectangleQueries(int[][] rectangle) {
-        
         this.rectangle = rectangle;
-        this.row = rectangle.length;
-        this.col = rectangle[0].length;
-        
     }
     
     public void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
