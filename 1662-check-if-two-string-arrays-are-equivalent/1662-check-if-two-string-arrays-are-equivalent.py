@@ -14,7 +14,8 @@ class Solution:
         w2 = ''.join(word2)
         
         # print(w1,w2)
-        if (w1==w2):
-            return True
-        else:
-            return False
+        # if (w1==w2):
+        #     return True
+        # else:
+        #     return False
+        return w1==w2
