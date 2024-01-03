@@ -4,7 +4,6 @@ class Solution:
         prev = d.get(s[0])
         ans = 0
         for i in range(1,len(s)):
-            print(ans)
             temp = d.get(s[i])
             if prev[0] < temp[0]:
                 ans+= -prev[1]
